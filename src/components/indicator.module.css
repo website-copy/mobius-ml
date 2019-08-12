@@ -1,0 +1,21 @@
+.indicator {
+    background-image: linear-gradient(90deg, var(--macaroni-and-cheese), var(--barbie-pink), var(--blueberry), var(--greenblue), var(--macaroni-and-cheese));
+    background-size: 500% 100%;
+    border-radius: 50%;
+    display: inline-block;
+    height: .75rem;
+    left: .4rem;
+    margin-top: -.375rem;
+    position: absolute;
+    top: 50%;
+    width: .75rem
+}
+
+@media (min-width: 768px) {
+    .indicator {
+        height: 1rem;
+        left: .5rem;
+        margin-top: -.5rem;
+        width: 1rem
+    }
+}

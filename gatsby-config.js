@@ -3,6 +3,8 @@ module.exports = {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    keywords: 'Computer Vision, Artificial Intelligence, AI, Mobius, Labs, SDK',
+    siteUrl: 'https://www.mobius.ml/'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,11 +12,12 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-css-modules`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -1,0 +1,115 @@
+.tabbar {
+    text-align: center;
+    width: 100%
+}
+
+.tab, .tabbar {
+    background-color: var(--black-two)
+}
+
+.tab {
+    font-size: .8rem;
+    margin: 0 1rem;
+    padding: .5rem 0;
+    position: relative
+}
+
+.active span {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.active:after, .active span {
+    background-image: linear-gradient(79deg, var(--greenblue), var(--macaroni-and-cheese))
+}
+
+.active:after {
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0
+}
+
+.code-examples {
+    background-color: var(--black);
+    border: 1px solid var(--black-two);
+    border-radius: 4px;
+    margin: auto auto 0;
+    max-width: 544px;
+    width: 100%
+}
+
+.cod-snippet {
+    display: flex;
+    text-align: left;
+    transition: height .4s ease-in-out;
+    will-change: height
+}
+
+.cod-snippet > pre {
+    line-height: 1.25rem;
+    margin-bottom: 0
+}
+
+.code {
+    border-bottom: 1px solid var(--black-two);
+    border-left: 1px solid var(--black-two);
+    flex: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: .5rem 1rem
+}
+
+@media (min-width: 992px) {
+    .code {
+        overflow: hidden
+    }
+}
+
+.line-numbers {
+    border-bottom: 1px solid var(--black-two);
+    color: #7e7e7e;
+    overflow: hidden;
+    padding: .5rem;
+    text-align: center
+}
+
+.line-numbers:after {
+    content: "99";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+
+.code_examples-module--footer {
+    text-align: center
+}
+
+.expand-code {
+    background-color: transparent;
+    font-size: .8rem;
+    padding: .5rem 0;
+    position: relative;
+    width: 100%
+}
+
+.expand-code img {
+    -webkit-backface-visibility: visible;
+    -webkit-transform: rotate(0);
+    backface-visibility: visible;
+    height: .47rem;
+    margin-bottom: 0;
+    margin-right: .6rem;
+    transform: rotate(0);
+    transition: -webkit-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out;
+    transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+    width: .6rem
+}
+
+.code_examples-module--collapse img {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}

@@ -1,0 +1,35 @@
+
+.slider {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease;
+    user-select: none
+}
+
+.slider-dots{
+    font-size: 0;
+    margin-bottom: 0;
+    margin-left: 18px
+}
+
+.dot {
+    background-color: var(--black-two);
+    border-radius: 50%;
+    display: inline-block;
+    height: .5rem;
+    margin-right: .5rem;
+    padding: 0;
+    width: .5rem
+}
+
+.active-dot {
+    background-image: linear-gradient(90deg, #20d19f, #edd235)
+}
+
+.section_solutions-module--section-solutions--3X5Hg {
+    overflow-x: hidden;
+    text-align: left
+}

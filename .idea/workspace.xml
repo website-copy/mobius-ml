@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b7227a1-b7c5-4667-bb80-93a7fa9da67d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Mobius-team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/android_sdk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/eyeem-6539b719a57d8daeee578a2ac95f1240-f04ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Mobius-team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/mobius_labs_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/mobius_labs_pictogram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/on premise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_aesthetics/photos/01__94__tobias-keller-104263-unsplash-dd3bff2195701e51de88a80b0bb440d0-99d58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_aesthetics/photos/02__88__jack-anstey-383370-unsplash-6e14763b1bbaf7ea4088e01b213be058-99d58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_aesthetics/photos/03__85__fredy-martinez-348698-unsplash-60640c949cf356a350c3d6d740b902c1-99d58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_engineeredfor/security.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_engineeredfor/simplicity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_engineeredfor/speed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_industries/industries_01-e1bb65f738064c55ab377cbdfa3721b0-0a180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_industries/industries_02-493aac75debd6f24016dcc03bf837f75-0a180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_industries/industries_03-7a0cae6a4f78d357684a686748bf1eed-0a180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/01__KEY-d2e2e8e80ec570db277df1f090ed629e-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/02__96p-e51fe88b72c9f0422aff2ecbcce9314e-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/03__92p-32f1647c354f193f0eaa3342667b9ef6-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/04__87p-d32c059501035aec7438f33911eaf97a-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/05__84p-8138ed56e240ea294d005e7ceb89782c-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/06__77p-091e9251a3ae18f4ff746b957c575835-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/07__73p-1f2d5f54d73939cd2ab1e9c3f54bf71d-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_1/08__68p-980d40ef234d3101b8cd0b391a4cbdcc-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/01__94__tobias-keller-104263-unsplash-dd3bff2195701e51de88a80b0bb440d0-99d58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/01__KEY__jack-anstey-415825-unsplash-a2f85925c80ab3f29778b7ecff86851f-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/02__88__jack-anstey-383370-unsplash-6e14763b1bbaf7ea4088e01b213be058-99d58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/02__91p-dc762d5d16687498726edd7ba83b2f83-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/03__86p-33dece94d2d29e8c5409ddf0454db464-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/04__83p-f38043e4b1e71a168deec8141f337574-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/05__77p-c9076b990af479055d44029da9ef370f-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/06__65p-4674c78e726af1bbe56a77cb00615829-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/07__61p-31c0d2a2af8dff1f4f628a338e9f43c4-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_searching/set_2/08__56p-de5b7d3602d06f9f83c8fb425b0746a8-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_solutions/on-device.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_solutions/on-premise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_solutions/vision-sdk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_tagging/eyeem-6539b719a57d8daeee578a2ac95f1240-f04ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_tagging/unsplash-1de21cc755e1c1d7d52a94d2f4cbf729-f04ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/01__POSITIVE__arthur-poulin-96074-unsplash-dcc4a6a48386450076d396500b0583cb-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/02__NEGATIVE__ganapathy-kumar-113604-unsplash-1180ea2a667dc20bb282e9d6b3b73921-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/03__POSITIVE__austin-neill-246589-unsplash-a0c61a4a66773daf6b973290d2388460-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/04__POSITIVE__felix-russell-saw-107214-unsplash-0d67f4dccadb0678ae2885d7ac89d5e6-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/05__NEGATIVE__leonides-ruvalcabar-738807-unsplash-8666b47edd9029b3ec7d4b8996c6dff3-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/06__POSITIVE__leon-contreras-447372-unsplash-6cac6995d9c9c26fce36e84fbb9a34f0-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/07__NEGATIVE__nathan-dumlao-314124-unsplash-5ceb50f4e671463695ed8aaeeb70631d-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section_training/set_01/08__POSITIVE__mckayla-crump-715287-unsplash-1121297d12201c12a18adc8b02310f61-71c83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_05.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/strips/strip_07.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/unsplash-1de21cc755e1c1d7d52a94d2f4cbf729-f04ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/code_examples.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/code_examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/code_examples.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact_form.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact_form.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/indicator.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/indicator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_aesthetics.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_aesthetics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_aesthetics.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_contact.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_contact.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_engineeredfor.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_engineeredfor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_engineeredfor.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_hero.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_hero.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_industries.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_industries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_industries.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_manifesto.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_manifesto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_manifesto.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_searching.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_searching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_searching.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_solutions.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_solutions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_solutions.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_tagging.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_tagging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_tagging.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_team.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_team.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_team.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_training.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_training.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section_training.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/smooth_scroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/strips.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/strips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/strips.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/waypoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/with_event_handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/with_modulo_counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/with_ticker_state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/docs.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/docs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/docs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/privacy-policy.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/privacy-policy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/privacy-policy.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mobius-ml" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/mobius-ml.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PJ5aipDWTA1KKzYiDBxrZrpNmC" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets/section_tagging" />
+      <recent name="$PROJECT_DIR$/src/assets/strips" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/section_industries" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b7227a1-b7c5-4667-bb80-93a7fa9da67d" name="Default Changelist" comment="" />
+      <created>1565579423681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565579423681</updated>
+      <workItem from="1565579424872" duration="20435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

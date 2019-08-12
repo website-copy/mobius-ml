@@ -1,0 +1,2 @@
+// extracted by mini-css-extract-plugin
+module.exports = {"sectionIndustries":"section_industries-module--section-industries--23UIi","industry":"section_industries-module--industry--1ZEYq","col":"section_industries-module--col--2gxAi","photoWrapper":"section_industries-module--photo-wrapper--2KQ_K","photoText":"section_industries-module--photo-text--3egAr","photoCol":"section_industries-module--photo-col--259lc","gutters":"section_industries-module--gutters--1Iuqs"};

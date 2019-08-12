@@ -1,20 +1,24 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import Layout from '../components/layout'
+import SectionHero from '../components/section_hero'
+import SectionSolutions from '../components/section_solutions'
+import SectionTraining from '../components/section_training'
+import SectionTagging from '../components/section_tagging'
+import SectionSearching from '../components/section_searching'
+import SectionAesthetics from '../components/section_aesthetics'
+import SectionEngineeredFor from '../components/section_engineeredfor'
+import SectionIndustries from '../components/section_industries'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+const IndexPage = (props) => (
+  <Layout {...props} >
+    <SectionHero />
+    <SectionSolutions />
+    <SectionTraining />
+    <SectionTagging />
+    <SectionSearching />
+    <SectionAesthetics />
+    <SectionEngineeredFor />
+    <SectionIndustries />
   </Layout>
 )
 

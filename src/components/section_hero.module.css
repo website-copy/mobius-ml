@@ -1,0 +1,46 @@
+.section-hero {}
+.sticky-buttons {
+    background-image: linear-gradient(transparent,var(--black));
+    bottom: 0;
+    left: 0;
+    padding-bottom: .7rem;
+    padding-top: .7rem;
+    position: fixed;
+    right: 0;
+    z-index: 100
+}
+
+.btn-group {
+    -webkit-animation: fade .5s ease-out .25s backwards;
+    animation: fade .5s ease-out .25s backwards;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.btn-group :first-child {
+    margin-right: .5rem
+}
+
+.btn-group :last-child {
+    margin-left: .5rem
+}
+
+@media (min-width: 768px) {
+    .btn-group :first-child a {
+        margin-right:0
+    }
+
+    .btn-group :last-child a {
+        margin-left: 0
+    }
+}
+
+.btn-group a {
+    display: block;
+    flex: 1;
+    margin-bottom: 0;
+    max-width: 200px
+}
+
+

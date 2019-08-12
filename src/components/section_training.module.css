@@ -1,0 +1,138 @@
+.strip {
+    bottom: 2rem;
+    left: -39%;
+    max-width: none;
+    right: -18px
+}
+
+@media (min-width: 576px) {
+    .strip {
+        left: -10%;
+        right: 50%
+    }
+}
+
+.section-training {
+    margin-left: 18px;
+    margin-right: 18px;
+    text-align: left
+}
+
+.section-training h2, .section-training p {
+    display: inline-block;
+    max-width: 720px
+}
+
+.section-photo-selection {
+    margin: auto;
+    max-width: 1440px
+}
+
+.photo-wrapper {
+    border: 0 solid transparent;
+    margin: 2px;
+    overflow: hidden;
+    padding: 4px;
+    position: relative
+}
+
+.photo {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+    z-index: 2
+}
+
+.accept {
+    background-image: linear-gradient(56deg, var(--greenblue), var(--macaroni-and-cheese))
+}
+
+.overlay {
+    background-color: var(--black);
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: 4px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .5s ease-out;
+    z-index: 2
+}
+
+.entered .overlay {
+    opacity: .25
+}
+
+.reject {
+    background-image: linear-gradient(56deg, var(--barbie-pink), var(--blueberry))
+}
+
+.accept .before, .reject .before {
+    background-color: rgba(14, 14, 14, .25);
+    border-radius: 50%;
+    height: 48px;
+    left: 50%;
+    margin: -24px 0 0 -24px;
+    top: 50%;
+    width: 48px
+}
+
+.accept .after, .accept .before, .reject .after, .reject .before {
+    -webkit-transform: scale(0);
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+    z-index: 3
+}
+
+.accept .after, .reject .after {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0
+}
+
+.entered .after, .entered .before, .entered .photo {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.accept .after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNyIgaGVpZ2h0PSIyMCI+PHBhdGggZmlsbD0iIzIwRDE5RiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNLjUzNyA4LjQxNWExLjgzNCAxLjgzNCAwIDAgMCAwIDIuNTk0bDguNDY1IDguNDU0Yy4zNTguMzU4LjgwNi41MzcgMS4yOTguNTM3LjU4My0uMDQ1IDEuMDc1LS4yNjggMS40MzQtLjY3MWwxNC4wOC0xNi4zMmMuNjI2LS43Ni41MzctMS45MjMtLjIyNS0yLjU5NC0uNzYxLS42MjYtMS45MjUtLjUzNy0yLjU5Ny4yMjNsLTEyLjgyNiAxNC44LTcuMDMxLTcuMDIzYTEuODQgMS44NCAwIDAgMC0yLjU5OCAweiIvPjwvc3ZnPg==)
+}
+
+.reject .after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRjM4QkYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1OTNDOEYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2EpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC41MjIgMzMuNDc4YTEuNzQgMS43NCAwIDAgMCAxLjI2LjUyMmMuNDc5IDAgLjkxNC0uMTc0IDEuMjYxLS41MjJMMjQgMjYuNTIybDYuOTU3IDYuOTU2Yy4zNDcuMzQ4Ljc4Mi41MjIgMS4yNi41MjJhMS43NCAxLjc0IDAgMCAwIDEuMjYxLS41MjIgMS43ODQgMS43ODQgMCAwIDAgMC0yLjUyMUwyNi41MjIgMjRsNi45NTYtNi45NTdhMS43ODQgMS43ODQgMCAwIDAgMC0yLjUyMSAxLjc4NCAxLjc4NCAwIDAgMC0yLjUyMSAwTDI0IDIxLjQ3OGwtNi45NTctNi45NTZhMS43ODQgMS43ODQgMCAwIDAtMi41MjEgMCAxLjc4NCAxLjc4NCAwIDAgMCAwIDIuNTIxTDIxLjQ3OCAyNGwtNi45NTYgNi45NTdhMS43ODQgMS43ODQgMCAwIDAgMCAyLjUyMXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNCAtMTQpIi8+PC9zdmc+)
+}
+
+@media (min-width: 576px) {
+    .text-container {
+        margin-bottom: 2rem
+    }
+
+    .section-photo-selection {
+        margin-bottom: 4rem
+    }
+
+    .section-training {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .section-training {
+        margin-bottom: 5.5rem;
+        text-align: center
+    }
+}

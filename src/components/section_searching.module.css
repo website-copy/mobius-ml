@@ -1,0 +1,172 @@
+
+.strip {
+    bottom: 7rem;
+    left: -80%;
+    right: 50%
+}
+
+@media (min-width: 576px) {
+    .strip {
+        bottom: 5rem;
+        left: 50%;
+        right: -10%
+    }
+}
+
+.section-searching {
+    margin-left: 18px;
+    margin-right: 18px;
+    text-align: left
+}
+
+.photo-wrapper-key .photo:after {
+    border: 4px solid var(--macaroni-and-cheese);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(79deg, var(--greenblue), var(--macaroni-and-cheese));
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.section-searching .fade-enter .tr_cls .tr_cls_inner {
+    -webkit-transform: scale(.98);
+    opacity: 0;
+    transform: scale(.98)
+}
+
+.section-searching .fade-enter-active .tr_cls .tr_cls_inner {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity .4s ease-in, -webkit-transform .4s ease-in;
+    transition: transform .4s ease-in, opacity .4s ease-in;
+    transition: transform .4s ease-in, opacity .4s ease-in, -webkit-transform .4s ease-in
+}
+
+.section-searching .fade-enter .similarity, .section-searching .fade-enter .tr_cls:first-child .keyimage {
+    -webkit-transform: scale(1) translate(-50%);
+    opacity: 0;
+    transform: scale(1) translate(-50%)
+}
+
+.section-searching .fade-enter-active .similarity, .section-searching .fade-enter-active .tr_cls:first-child .keyimage {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+    transition: opacity .35s ease-in, -webkit-transform .75s var(--ease-out);
+    transition: transform .75s var(--ease-out), opacity .35s ease-in;
+    transition: transform .75s var(--ease-out), opacity .35s ease-in, -webkit-transform .75s var(--ease-out);
+    transition-delay: 2s
+}
+
+.section-searching .fade-exit .tr_cls .tr_cls_inner {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    transform: scale(1)
+}
+
+.section-searching .fade-exit-active .tr_cls .tr_cls_inner {
+    -webkit-transform: scale(.98);
+    opacity: 0;
+    transform: scale(.98);
+    transition: opacity .25s ease-in, -webkit-transform .25s ease-in;
+    transition: transform .25s ease-in, opacity .25s ease-in;
+    transition: transform .25s ease-in, opacity .25s ease-in, -webkit-transform .25s ease-in
+}
+
+.section-searching .fade-enter .similarity {
+    -webkit-transform: scale(1) translate(-50%);
+    opacity: 0;
+    transform: scale(1) translate(-50%)
+}
+
+.section-searching .fade-enter-active .similarity {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+    transition: opacity .35s ease-in, -webkit-transform .75s var(--ease-out);
+    transition: transform .75s var(--ease-out), opacity .35s ease-in;
+    transition: transform .75s var(--ease-out), opacity .35s ease-in, -webkit-transform .75s var(--ease-out);
+    transition-delay: 2s
+}
+
+.section-searching .fade-exit {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1
+}
+
+@media (min-width: 576px) {
+    .section-searching {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .section-searching {
+        margin-bottom: 5.5rem;
+        text-align: center
+    }
+}
+
+.section-searching p {
+    display: inline-block;
+    max-width: 720px
+}
+
+.section-photo-similarity {
+    margin: auto;
+    max-width: 1440px
+}
+
+@media (min-width: 576px) {
+    .section-photo-similarity {
+        margin-bottom: 4rem
+    }
+}
+
+.photo-wrapper {
+    margin: 2px;
+    position: relative
+}
+
+.keyimage, .similarity {
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}
+
+.keyimage {
+    max-width: 8rem
+}
+
+.similarity {
+    max-width: 7.5rem
+}
+
+@media (min-width: 768px) {
+    .photo-wrapper {
+        font-size: .8rem;
+        line-height: .8rem
+    }
+
+    .similarity {
+        max-width: 10rem
+    }
+
+    .keyimage {
+        max-width: 14.75rem
+    }
+}

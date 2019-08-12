@@ -1,0 +1,27 @@
+.team .gatsby-image-wrapper {
+    margin-bottom: 1.5rem
+}
+
+.strip {
+    right: 0;
+    top: 3rem;
+    width: 95%
+}
+
+@media (min-width: 768px) {
+    .strip {
+        left:-10%;
+        right: 55%;
+        top: 8rem;
+        width: auto
+    }
+
+    .team h2 {
+        margin-top: 2rem
+    }
+
+    .team .sm-gutters {
+        margin: auto;
+        max-width: 500px
+    }
+}

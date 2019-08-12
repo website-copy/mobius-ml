@@ -1,0 +1,137 @@
+.photos {}
+
+.strip {
+    bottom: 15rem;
+    left: -15%;
+    width: 125%
+}
+
+@media (min-width: 768px) {
+    .strip {
+        bottom: auto;
+        left: -5%;
+        right: 45%;
+        top: 2rem;
+        width: auto
+    }
+}
+
+.section-aesthetics {
+    text-align: left
+}
+
+@media (min-width: 576px) {
+    .section-aesthetics h2 {
+        margin-top: 2rem
+    }
+}
+.aesthetics-photo {
+    position: relative
+}
+
+.aesthetics-photo .indicator {
+    left: .5rem
+}
+
+.aesthetics-photo .bubble {
+    -webkit-transform: translateY(-25%);
+    opacity: 0;
+    transform: translateY(-25%);
+    transition: opacity .2s ease-in, -webkit-transform .2s ease-out;
+    transition: opacity .2s ease-in, transform .2s ease-out;
+    transition: opacity .2s ease-in, transform .2s ease-out, -webkit-transform .2s ease-out
+}
+
+.aesthetics-photo .entered .bubble {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.score {
+    border: 1px solid #fff;
+    padding-left: 1.6rem;
+    position: absolute
+}
+
+.code {
+    margin-bottom: 2.5rem
+}
+
+@media (min-width: 768px) {
+    .code {
+        margin-bottom: 4rem
+    }
+}
+
+.aesthetics-photo:first-child {
+    min-width: 216px;
+    position: absolute;
+    right: 18px;
+    top: 37%;
+    width: 70%;
+    z-index: 2
+}
+
+.aesthetics-photo:nth-child(2) {
+    margin: auto;
+    min-width: 252px;
+    width: 80%
+}
+
+.aesthetics-photo:nth-child(3) {
+    -webkit-transform: translate3d(0, -2%, 0);
+    margin-right: auto;
+    min-width: 144px;
+    transform: translate3d(0, -2%, 0);
+    width: 45%;
+    z-index: -1
+}
+
+.aesthetics-photo:first-child .score {
+    left: .5rem;
+    top: .5rem
+}
+
+.aesthetics-photo:nth-child(2) .score {
+    right: .5rem;
+    top: .5rem
+}
+
+.aesthetics-photo:nth-child(3) .score {
+    bottom: .5rem;
+    left: 0
+}
+
+@media (min-width: 576px) {
+    .aesthetics-photo .bubble {
+        text-align: center;
+        width: 12.5rem
+    }
+}
+
+@media (min-width: 768px) {
+    .aesthetics-photo .indicator {
+        left: .76rem
+    }
+
+    .aesthetics-photo:first-child .score {
+        left: 2rem;
+        top: 2rem
+    }
+
+    .aesthetics-photo:nth-child(2) .score {
+        right: 2rem;
+        top: 2rem
+    }
+
+    .aesthetics-photo:nth-child(3) .score {
+        bottom: 2rem;
+        left: 2rem
+    }
+
+    .section-aesthetics .sm-gutters {
+        margin: auto;
+        max-width: 500px
+    }
+}

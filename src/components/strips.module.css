@@ -1,0 +1,18 @@
+.strip-container{
+    -webkit-transform: translateX(-50%);
+    height: 100%;
+    left: 50%;
+    max-width: 1440px;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: -1
+}
+
+.strip-container, .strip-container> div {
+    position: absolute
+}
+
+.strip-containerimg {
+    width: 100%
+}

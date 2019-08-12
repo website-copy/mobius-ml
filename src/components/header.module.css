@@ -1,0 +1,187 @@
+.header {
+    height: 4rem;
+    height: 62px
+}
+
+@media (min-width: 992px) {
+    .header {
+        height: 104px
+    }
+}
+
+.header div {
+    height: inherit
+}
+
+.header.sticky .floating {
+    border-color: var(--black-two)
+}
+
+.floating {
+    background-color: var(--black);
+    border-bottom: 1px solid transparent;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease;
+    z-index: 100
+}
+
+@media (min-width: 992px) {
+    .header.sticky .floating {
+        -webkit-transform: translateY(-16px);
+        margin-bottom: -16px;
+        transform: translateY(-16px)
+    }
+}
+
+.burger {
+    background: transparent;
+    height: 40px;
+    position: relative;
+    width: 32px
+}
+
+.burger:after, .burger:before {
+    background: var(--white);
+    border-radius: 8px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: -webkit-transform .5s cubic-bezier(.19, 1, .22, 1);
+    transition: transform .5s cubic-bezier(.19, 1, .22, 1);
+    transition: transform .5s cubic-bezier(.19, 1, .22, 1), -webkit-transform .5s cubic-bezier(.19, 1, .22, 1)
+}
+
+.burger:before {
+    top: 12px;
+    transition-delay: .1s
+}
+
+.burger:after {
+    bottom: 12px
+}
+
+.cross:before {
+    -webkit-transform: translateY(6px) rotate(45deg) scale(.8);
+    transform: translateY(6px) rotate(45deg) scale(.8)
+}
+
+.cross:after {
+    -webkit-transform: translateY(-6px) rotate(-45deg) scale(.8);
+    transform: translateY(-6px) rotate(-45deg) scale(.8)
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center
+}
+
+.logo img {
+    -webkit-transform-origin: left;
+    height: 30px;
+    margin: 0;
+    transform-origin: left;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease
+}
+
+@media (min-width: 992px) {
+    .logo img {
+        height: 48px;
+        margin-bottom: -16px
+    }
+
+    .logo:after {
+        -webkit-transform: scaleX(0);
+        background-color: var(--black);
+        content: "";
+        display: block;
+        height: 98%;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: scaleX(0);
+        transition: opacity .4s ease, -webkit-transform .4s ease;
+        transition: transform .4s ease, opacity .4s ease;
+        transition: transform .4s ease, opacity .4s ease, -webkit-transform .4s ease;
+        width: 60%
+    }
+
+    .header.sticky .logo:after {
+        -webkit-transform: scaleX(1);
+        opacity: 1;
+        transform: scaleX(1)
+    }
+}
+
+@media (min-width: 992px) {
+    .header.sticky .logoimg {
+        -webkit-transform: scale(.6667);
+        transform: scale(.6667)
+    }
+}
+
+.links {
+    list-style: none;
+    margin: 0 0 -16px
+}
+
+.list-link {
+    display: inline-block;
+    margin: 0 38px 0 0
+}
+
+.list-link:last-child {
+    margin-right: 0
+}
+
+.list-link a {
+    font-size: 1rem;
+    position: relative;
+    text-decoration: none
+}
+
+.list-link a:not(.contact):after {
+    -webkit-transform: scaleX(0);
+    -webkit-transform-origin: left;
+    background: linear-gradient(79deg, var(--greenblue), var(--macaroni-and-cheese));
+    bottom: -6px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out
+}
+
+.contact {
+    display: inline-block;
+    padding: 0 1rem;
+    text-align: center;
+    width: 120px
+}
+
+.active a {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(79deg, var(--greenblue), var(--macaroni-and-cheese))
+}
+
+.active a:after, .list-link a:not(.contact):hover:after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+}

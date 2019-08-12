@@ -1,0 +1,2 @@
+// extracted by mini-css-extract-plugin
+module.exports = {"sectionEngineeredfor":"section_engineeredfor-module--section-engineeredfor--tw3Xi","headline":"section_engineeredfor-module--headline--2pIDJ","col":"section_engineeredfor-module--col--3eGlX","colInner":"section_engineeredfor-module--col-inner--1OjLt","colBody":"section_engineeredfor-module--col-body--Vw5ps","icon":"section_engineeredfor-module--icon--37DlN"};

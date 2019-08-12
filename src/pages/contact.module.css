@@ -1,0 +1,136 @@
+.contact-form{
+    background-color: var(--black);
+    border: 1px solid var(--black-two);
+    margin: 0 auto;
+    max-width: 720px;
+    opacity: 1;
+    padding-top: 2rem;
+    transition: opacity .5s ease
+}
+
+.loading {
+    opacity: .75;
+    pointer-events: none
+}
+
+.submit {
+    margin-bottom: 3rem;
+    text-align: center
+}
+
+.submit button {
+    font-size: 1rem;
+    height: 40px;
+    width: 12rem;
+    z-index: 0
+}
+
+.tiny {
+    font-size: .8rem;
+    margin-bottom: 2.5rem
+}
+
+input, textarea {
+    background-color: var(--white);
+    border: none;
+    border-radius: 4px;
+    outline-color: var(--greenblue);
+    padding: .88rem 1rem;
+    resize: none
+}
+
+input {
+    margin-bottom: 2rem
+}
+
+label {
+    display: block;
+    margin-bottom: .75rem
+}
+
+textarea {
+    margin-bottom: 1rem;
+    min-height: 8rem
+}
+
+input, textarea {
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    input, textarea {
+        margin-left: auto;
+        max-width: 380px
+    }
+
+    .contact-form{
+        padding: 2.5rem 4.5rem 0
+    }
+
+    .submit {
+        margin-bottom: 2.5rem;
+        text-align: right
+    }
+
+    .contact-formlabel {
+        margin-top: 1rem
+    }
+
+    .tiny {
+        margin-left: auto;
+        max-width: 380px
+    }
+}
+
+.contact-page{
+    position: relative
+}
+
+.header p {
+    font-size: 1rem;
+    margin-bottom: 3rem
+}
+
+.strip {
+    bottom: 3.5rem;
+    left: 10%;
+    right: -37%
+}
+
+@media (min-width: 768px) {
+    .strip {
+        bottom: -3rem;
+        left: auto;
+        right: 0;
+        width: 60%
+    }
+
+    .header {
+        text-align: center
+    }
+
+    .header p {
+        font-size: 1.5rem;
+        margin: 0 auto 5rem;
+        max-width: 45rem
+    }
+}
+
+.strip-container {
+    -webkit-transform: translateX(-50%);
+    height: 100%;
+    left: 50%;
+    max-width: 1440px;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: -1
+}
+
+.strip-container, .strip-container > div {
+    position: absolute
+}
+
+.strip-container img {
+    width: 100%
+}

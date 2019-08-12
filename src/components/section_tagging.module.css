@@ -1,0 +1,84 @@
+.strip {
+    bottom: 4rem;
+    left: -13%;
+    width: 150%
+}
+
+@media (min-width: 768px) {
+    .strip {
+        left: auto;
+        left: 35%;
+        right: 5%;
+        top: 2rem;
+        width: auto
+    }
+}
+
+.code {
+    margin-bottom: 2.5rem
+}
+
+@media (min-width: 768px) {
+    .code {
+        margin-bottom: 4rem
+    }
+}
+
+.section-tagging {
+    text-align: left
+}
+
+.tagged-image {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.tagged-image img {
+    margin: 0;
+    width: 100%
+}
+
+.section-tagging .fade-enter {
+    opacity: .01
+}
+
+.section-tagging .fade-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-in
+}
+
+.section-tagging .fade-exit, .section-tagging .fade-exit-active {
+    z-index: -1
+}
+
+.tag {
+    -webkit-animation-duration: 1.11s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(.445, .05, .55, .95);
+    -webkit-transform: scale(0);
+    animation-duration: 1.11s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.445, .05, .55, .95);
+    position: absolute;
+    text-align: center;
+    transform: scale(0)
+}
+
+.entered .tag {
+    -webkit-animation-name: springish_scale;
+    animation-name: springish_scale
+}
+
+@media (min-width: 768px) {
+    .section-tagging h2 {
+        margin-top: 2rem
+    }
+
+    .section-tagging .sm-gutters {
+        margin: auto;
+        max-width: 500px
+    }
+}
